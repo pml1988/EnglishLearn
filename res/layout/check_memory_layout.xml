@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_top_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_margin="@dimen/little_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/memory_rule"
+                android:textColor="@color/black"
+                android:lineSpacingMultiplier="1.5"
+                android:textSize="@dimen/little_font" />
+
+            <ImageView
+                android:layout_margin="@dimen/little_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/memory1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:layout_margin="@dimen/little_margin"
+                android:src="@drawable/memory2" />
+
+            <TextView
+                android:id="@+id/memory_desc_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_margin="@dimen/little_margin"
+                android:lineSpacingMultiplier="1.5"
+                android:textSize="@dimen/little_font"
+                 />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

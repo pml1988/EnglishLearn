@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">英语学习</string>
+    <string name="home">主页</string>
+    <string name="person">个人</string>
+    <string name="test">测试</string>
+    <string name="random_test">随机测试</string>
+    <string name="plan_test">计划测试</string>
+    <string name="about">关于</string>
+    <string name="about_desc">这是一个关于英语学习的软件.\n 版本:1.0</string>
+    <string name="selected_time_low">选择时间不能低于当前时间</string>
+    <string name="loading_words">加载单词中 &#8230;</string>
+    <string name="tip">提示</string>
+    <string name="my_word_library">我的词汇库</string>
+    <string name="memory_tip">记忆提醒</string>
+    <string name="time_no_review">您已经超过5分钟没有雨学习了</string>
+    <string name="check_memory_rule">查看记忆规律</string>
+    <string name="spell_em">拼写:</string>
+    <string name="word_em">单词:</string>
+    <string name="show_answer">查看答案</string>
+    <string name="word_selected">单词选择测试</string>
+    <string name="base_selected">词义选择测试</string>
+    <string name="base_spell_selected">词义拼写测试</string>
+    <string name="listener_selected">听选词义测试</string>
+    <string name="select_test_type">选择测试类型</string>
+    <string name="compare">比\n对</string>
+
+    <string-array name="test_type_array">
+        <item>单词选择</item>
+        <item>词义选择</item>
+        <item>词义拼写单词</item>
+    </string-array>
+
+    <string name="selected_position">请选择答案,或点击"下一个"</string>
+
+    <!-- View Word -->
+    <string name="learn_word">跟我学单词</string>
+    <string name="memory">记忆</string>
+    <string name="memory_rule">      &#160;&#160; 德国心理学家艾宾浩斯(H.Ebbinghaus）研究发现，遗忘在学习之后立即开始，而且遗忘的进程并不是均匀的。最初遗忘速度很快，以后逐渐缓慢。他认为"保持和遗忘是时间的函数"，他用无意义音节（由若干音节字母组成、能够读出、但无内容意义即不是词的音节）作记忆材料，用节省法计算保持和遗忘的数量。并根据他的实验结果绘成描述遗忘进程的曲线，即著名的艾宾浩斯记忆遗忘曲线。</string>
+
+    <item name="pager_position" type="id"></item>
+    <item name="pager_position_offset_pixels" type="id"></item>
+
+    <string name="page_main_learn_project">改计划</string>
+    <string name="page_main_review">今日已学</string>
+    <string name="page_main_remain">剩余</string>
+    <string name="page_main_complete">已完成</string>
+    <string name="page_main_today_new_words">今日目标</string>
+    <string name="page_main_all_words">查看测试单词</string>
+    <string name="page_main_test">开始测试</string>
+    <string name="page_main_start">开始学习</string>
+    <string name="study">学习</string>
+    <string name="page_learn_funny_note">趣味助记</string>
+    <string name="page_learn_funny_note_empty">暂无趣味助记</string>
+    <string name="page_learn_next">下一个</string>
+    <string name="page_learn_back">返回</string>
+    <string name="page_learn_easy">太简单</string>
+    <string name="page_learn_sentence">例句</string>
+    <string name="page_words_all">所有</string>
+    <string name="page_words_review">复习</string>
+    <string name="now_no_test_word">您还没有测试的单词</string>
+    <string name="show_hide_corrent_test">显示/隐藏正确的测试</string>
+    <string name="confirm">确定</string>
+    <string name="page_learn_confirm">输入完成后,按回车键确定</string>
+    <string name="cancel">取消</string>
+    <string name="page_words_all_num">所有(%1$d)</string>
+    <string name="page_words_review_num">复习(%1$d)</string>
+
+</resources>

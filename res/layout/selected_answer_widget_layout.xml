@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/selected_a_rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/normal_margin"
+                    android:button="@drawable/selected_a_bg"
+                    style="@style/MyRaidoButton"
+                    android:gravity="left|top" />
+
+                <ImageView
+                    android:id="@+id/selected_a_iv"
+                    android:layout_width="50dip"
+                    android:layout_height="50dip"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="top|right"
+					android:layout_alignParentRight="true"
+					android:layout_alignParentTop="true"
+                    android:src="@drawable/page_learn_last_wrong"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginBottom="@dimen/little_margin"
+                android:id="@+id/selected_a_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/normal_margin"
+                android:ellipsize="end" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="2dip"
+            android:layout_height="match_parent"
+            android:src="@color/common_green" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/selected_b_rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/normal_margin"
+                    android:button="@drawable/selected_b_bg"
+                    style="@style/MyRaidoButton"
+                    android:gravity="left|top" />
+
+                <ImageView
+                    android:id="@+id/selected_b_iv"
+                    android:layout_width="50dip"
+                    android:layout_height="50dip"
+                    android:scaleType="fitCenter"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/page_learn_last_wrong"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginBottom="@dimen/little_margin"
+                android:id="@+id/selected_b_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/normal_margin"
+                android:ellipsize="end" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:src="@color/common_green" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+
+                <RadioButton
+                    android:id="@+id/selected_c_rb"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/normal_margin"
+                    android:button="@drawable/selected_c_bg"
+                    style="@style/MyRaidoButton"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                     />
+
+                <ImageView
+                    android:id="@+id/selected_c_iv"
+                    android:layout_width="50dip"
+                    android:layout_height="50dip"
+                    android:scaleType="fitCenter"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/page_learn_last_wrong"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/selected_c_tv"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="@dimen/little_margin"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/normal_margin"
+                android:ellipsize="end" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="2dip"
+            android:layout_height="match_parent"
+            android:src="@color/common_green" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/selected_d_rb"
+                    style="@style/MyRaidoButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/normal_margin"
+                    android:button="@drawable/selected_d_bg"
+                    android:gravity="left|top" />
+
+                <ImageView
+                    android:id="@+id/selected_d_iv"
+                    android:layout_width="50dip"
+                    android:layout_height="50dip"
+                    android:layout_marginBottom="@dimen/little_margin"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/page_learn_last_wrong"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/selected_d_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/normal_margin"
+                android:ellipsize="end" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

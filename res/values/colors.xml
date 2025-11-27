@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="common_green">#ff3cd393</color>
+    <color name="common_grey">#ff9a9a9a</color>
+    <color name="transparent_background">#00000000</color>
+    <color name="rank">#ff3e6300</color>
+    <color name="time">#fff58927</color>
+    <color name="color_default_bg">#ffffffff</color>
+    <color name="red">#ffee0000</color>
+    <color name="real_red">#ffff0000</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="green">#ff5d4c2d</color>
+    <color name="gray">#ffdededc</color>
+    <color name="study">#ff3cd393</color>
+    <color name="deep_grey">#ff74787a</color>
+    <color name="orange">#ffe79c28</color>
+    <color name="deep_blue">#ff74787b</color>
+    <color name="page_lock_screen_base_1">#ff3cd393</color>
+    <color name="page_about_background">#ffe6e6e6</color>
+    <color name="page_main_progress_font">#ff848484</color>
+    <color name="page_main_title_background">#ff2e3230</color>
+    <color name="page_learn_phonetic">#ff8f8f8f</color>
+    <color name="page_learn_word">#fffaa701</color>
+    <color name="page_main_title_font">#ff7e7e7e</color>
+
+</resources>

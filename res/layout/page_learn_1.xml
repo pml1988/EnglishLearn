@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/page_learn_sentence_english"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2.0dip"
+            android:textColor="@color/black"
+            android:textSize="13.0sp" />
+
+        <TextView
+            android:id="@+id/page_learn_sentence_chinese"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.0dip"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/page_learn_phonetic"
+            android:textSize="13.0sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/page_learn_sentence_speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5.0dip"
+        android:layout_weight="0.0"
+        android:src="@drawable/page_lock_screen_speak" />
+
+</LinearLayout>
